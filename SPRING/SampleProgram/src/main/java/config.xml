@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+ <!-- Define the Student bean -->
+   <!--  <bean id="student1" class="com.Spring.First.Student">
+        <property name="id" value="18"/>
+        <property name="name" value="Virat Kohli"/>
+        <property name="city" value="India"/> 
+        </bean>
+        
+        
+         <bean class="com.Spring.First.Customer" name="customer">
+    <constructor-arg value ="222"></constructor-arg>
+        <constructor-arg value = "Virat"></constructor-arg>
+    
+    
+    </bean> -->
+    
+    <bean name="beanlyf" class = "com.Spring.First.BeanlifeCycle" init-method= "init" destroy-method="destroy" >
+    
+    <property name="message" value="Hello this is spring"></property>
+    
+    
+    </bean>
+
+
+</beans>

@@ -1,0 +1,792 @@
+2025-12-26 10:08:31,169 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 15636 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 10:08:31,193 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 10:08:33,193 [main] 108  evel 108oggeer - Tomcat initialized with port 8283 (http)
+2025-12-26 10:08:33,209 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8283"]
+2025-12-26 10:08:33,215 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 10:08:33,216 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 10:08:33,306 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 10:08:33,310 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 2011 ms
+2025-12-26 10:08:33,860 [main] 84   evel 84oggeer - 
+
+Using generated security password: 9e18404b-d765-4a66-b4c8-e94069e60f39
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-26 10:08:34,041 [main] 54   evel 54oggeer - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4872669f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@483f286e, org.springframework.security.web.context.SecurityContextHolderFilter@1bedc703, org.springframework.security.web.header.HeaderWriterFilter@750ed637, org.springframework.web.filter.CorsFilter@4bb147ec, org.springframework.security.web.csrf.CsrfFilter@5af5d76f, org.springframework.security.web.authentication.logout.LogoutFilter@1e54a6b1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3d53e6f7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@433d9680, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@33f2cfda, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@51da32e5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4998e74b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d878b25, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@68ef01a5, org.springframework.security.web.access.ExceptionTranslationFilter@2b73bd6b, org.springframework.security.web.access.intercept.AuthorizationFilter@2ac519dc]
+2025-12-26 10:08:34,127 [main] 173  evel 173oggeer - Starting ProtocolHandler ["http-nio-8283"]
+2025-12-26 10:08:34,145 [main] 624  evel 624oggeer - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-12-26 10:08:34,185 [main] 82   evel 82oggeer - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-26 10:08:34,210 [main] 40   evel 40oggeer - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8283 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8283 or configure this application to listen on another port.
+
+2025-12-26 10:09:10,100 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 15758 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 10:09:10,146 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 10:09:11,854 [main] 108  evel 108oggeer - Tomcat initialized with port 8284 (http)
+2025-12-26 10:09:11,870 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8284"]
+2025-12-26 10:09:11,875 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 10:09:11,876 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 10:09:11,964 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 10:09:11,970 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 1618 ms
+2025-12-26 10:09:12,562 [main] 84   evel 84oggeer - 
+
+Using generated security password: 11ff15c7-e3a3-4a81-b946-0c84d327ee94
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-26 10:09:12,754 [main] 54   evel 54oggeer - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5403799b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a0e0886, org.springframework.security.web.context.SecurityContextHolderFilter@6fe595dc, org.springframework.security.web.header.HeaderWriterFilter@373052b5, org.springframework.web.filter.CorsFilter@3ad8717d, org.springframework.security.web.csrf.CsrfFilter@1e1232cf, org.springframework.security.web.authentication.logout.LogoutFilter@5d878b25, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@60f77af, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@766a52f5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4293e066, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@800d065, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a8cea24, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1eb9a3ef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d13960e, org.springframework.security.web.access.ExceptionTranslationFilter@52c9d3d0, org.springframework.security.web.access.intercept.AuthorizationFilter@3b0c3951]
+2025-12-26 10:09:12,831 [main] 173  evel 173oggeer - Starting ProtocolHandler ["http-nio-8284"]
+2025-12-26 10:09:12,863 [main] 221  evel 221oggeer - Tomcat started on port 8284 (http) with context path ''
+2025-12-26 10:09:12,884 [main] 56   evel 56oggeer - Started BfsiSecurityApplication in 3.885 seconds (process running for 5.449)
+2025-12-26 10:09:32,078 [http-nio-8284-exec-1] 173  evel 173oggeer - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-26 10:09:32,079 [http-nio-8284-exec-1] 532  evel 532oggeer - Initializing Servlet 'dispatcherServlet'
+2025-12-26 10:09:32,081 [http-nio-8284-exec-1] 554  evel 554oggeer - Completed initialization in 1 ms
+2025-12-26 10:09:32,131 [http-nio-8284-exec-1] 454  evel 454oggeer - Cache miss for REQUEST dispatch to '/accounts' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-12-26 10:11:31,106 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 16039 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 10:11:31,128 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 10:11:32,740 [main] 108  evel 108oggeer - Tomcat initialized with port 8285 (http)
+2025-12-26 10:11:32,757 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8285"]
+2025-12-26 10:11:32,765 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 10:11:32,766 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 10:11:32,860 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 10:11:32,865 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 1612 ms
+2025-12-26 10:11:33,600 [main] 84   evel 84oggeer - 
+
+Using generated security password: a1934b33-3dff-4605-a1ce-124e8f48a7f8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-26 10:11:33,800 [main] 54   evel 54oggeer - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@122635ef, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ac519dc, org.springframework.security.web.context.SecurityContextHolderFilter@766a52f5, org.springframework.security.web.header.HeaderWriterFilter@298b64f7, org.springframework.web.filter.CorsFilter@3d53e6f7, org.springframework.security.web.csrf.CsrfFilter@66f5a02e, org.springframework.security.web.authentication.logout.LogoutFilter@1f992a3a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@11381415, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@337a6d30, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1de4bee0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@27f3f512, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ba1209b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c241a9f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ece79fe, org.springframework.security.web.access.ExceptionTranslationFilter@1eb9a3ef, org.springframework.security.web.access.intercept.AuthorizationFilter@6dce59e]
+2025-12-26 10:11:33,878 [main] 173  evel 173oggeer - Starting ProtocolHandler ["http-nio-8285"]
+2025-12-26 10:11:33,907 [main] 221  evel 221oggeer - Tomcat started on port 8285 (http) with context path ''
+2025-12-26 10:11:33,930 [main] 56   evel 56oggeer - Started BfsiSecurityApplication in 3.481 seconds (process running for 4.56)
+2025-12-26 10:11:51,414 [http-nio-8285-exec-1] 173  evel 173oggeer - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-26 10:11:51,416 [http-nio-8285-exec-1] 532  evel 532oggeer - Initializing Servlet 'dispatcherServlet'
+2025-12-26 10:11:51,421 [http-nio-8285-exec-1] 554  evel 554oggeer - Completed initialization in 1 ms
+2025-12-26 10:11:51,461 [http-nio-8285-exec-1] 454  evel 454oggeer - Cache miss for REQUEST dispatch to '/account' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-12-26 10:12:37,314 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 16167 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 10:12:37,333 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 10:12:38,745 [main] 108  evel 108oggeer - Tomcat initialized with port 8285 (http)
+2025-12-26 10:12:38,760 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8285"]
+2025-12-26 10:12:38,764 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 10:12:38,765 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 10:12:38,842 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 10:12:38,846 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 1422 ms
+2025-12-26 10:12:39,389 [main] 84   evel 84oggeer - 
+
+Using generated security password: eaf51931-85ac-4d5f-af2c-746d057d792f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-26 10:12:39,554 [main] 54   evel 54oggeer - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4293e066, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d13960e, org.springframework.security.web.context.SecurityContextHolderFilter@1eb9a3ef, org.springframework.security.web.header.HeaderWriterFilter@6fe595dc, org.springframework.web.filter.CorsFilter@27f3f512, org.springframework.security.web.csrf.CsrfFilter@6b357eb6, org.springframework.security.web.authentication.logout.LogoutFilter@3663d0ba, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@422ab737, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7c241a9f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5e593b08, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5403799b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@298b64f7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@740b6628, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3946075, org.springframework.security.web.access.ExceptionTranslationFilter@67e0ff3a, org.springframework.security.web.access.intercept.AuthorizationFilter@18b6d3c1]
+2025-12-26 10:12:39,622 [main] 173  evel 173oggeer - Starting ProtocolHandler ["http-nio-8285"]
+2025-12-26 10:12:39,651 [main] 221  evel 221oggeer - Tomcat started on port 8285 (http) with context path ''
+2025-12-26 10:12:39,668 [main] 56   evel 56oggeer - Started BfsiSecurityApplication in 2.878 seconds (process running for 3.885)
+2025-12-26 10:14:03,122 [http-nio-8285-exec-2] 173  evel 173oggeer - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-26 10:14:03,123 [http-nio-8285-exec-2] 532  evel 532oggeer - Initializing Servlet 'dispatcherServlet'
+2025-12-26 10:14:03,126 [http-nio-8285-exec-2] 554  evel 554oggeer - Completed initialization in 2 ms
+2025-12-26 10:14:03,179 [http-nio-8285-exec-2] 454  evel 454oggeer - Cache miss for REQUEST dispatch to '/account' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-12-26 10:16:35,642 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 16567 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 10:16:35,658 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 10:16:37,271 [main] 108  evel 108oggeer - Tomcat initialized with port 8285 (http)
+2025-12-26 10:16:37,288 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8285"]
+2025-12-26 10:16:37,292 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 10:16:37,294 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 10:16:37,379 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 10:16:37,385 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 1595 ms
+2025-12-26 10:16:37,955 [main] 84   evel 84oggeer - 
+
+Using generated security password: a1e24152-0d96-42c8-aa98-9bd03b3146f4
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-26 10:16:38,128 [main] 54   evel 54oggeer - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5ad6cc21, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@800d065, org.springframework.security.web.context.SecurityContextHolderFilter@17207f5b, org.springframework.security.web.header.HeaderWriterFilter@6588b715, org.springframework.web.filter.CorsFilter@691124ee, org.springframework.security.web.csrf.CsrfFilter@64aeaf29, org.springframework.security.web.authentication.logout.LogoutFilter@673e76b3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@348137e8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5d318e91, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@38d80d65, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@11d86b9d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@67e0ff3a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b2bf745, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5403799b, org.springframework.security.web.access.ExceptionTranslationFilter@72443081, org.springframework.security.web.access.intercept.AuthorizationFilter@1c34365c]
+2025-12-26 10:16:38,192 [main] 173  evel 173oggeer - Starting ProtocolHandler ["http-nio-8285"]
+2025-12-26 10:16:38,219 [main] 221  evel 221oggeer - Tomcat started on port 8285 (http) with context path ''
+2025-12-26 10:16:38,241 [main] 56   evel 56oggeer - Started BfsiSecurityApplication in 3.312 seconds (process running for 4.349)
+2025-12-26 10:16:49,132 [http-nio-8285-exec-1] 173  evel 173oggeer - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-26 10:16:49,134 [http-nio-8285-exec-1] 532  evel 532oggeer - Initializing Servlet 'dispatcherServlet'
+2025-12-26 10:16:49,136 [http-nio-8285-exec-1] 554  evel 554oggeer - Completed initialization in 2 ms
+2025-12-26 10:16:49,174 [http-nio-8285-exec-1] 454  evel 454oggeer - Cache miss for REQUEST dispatch to '/account' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-12-26 10:20:21,194 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 16907 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 10:20:21,217 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 10:20:23,226 [main] 108  evel 108oggeer - Tomcat initialized with port 8285 (http)
+2025-12-26 10:20:23,255 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8285"]
+2025-12-26 10:20:23,267 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 10:20:23,270 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 10:20:23,423 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 10:20:23,430 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 2092 ms
+2025-12-26 10:20:24,126 [main] 84   evel 84oggeer - 
+
+Using generated security password: 6182dfb8-65d9-439b-bffc-c01b668ad91f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-26 10:20:24,282 [main] 54   evel 54oggeer - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5e593b08, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3946075, org.springframework.security.web.context.SecurityContextHolderFilter@740b6628, org.springframework.security.web.header.HeaderWriterFilter@1eb9a3ef, org.springframework.web.filter.CorsFilter@122635ef, org.springframework.security.web.csrf.CsrfFilter@3730f716, org.springframework.security.web.authentication.logout.LogoutFilter@566e142, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@11d86b9d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5f0bab7e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2ac519dc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4293e066, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@766a52f5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4342c13, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d53e6f7, org.springframework.security.web.access.ExceptionTranslationFilter@5af5d76f, org.springframework.security.web.access.intercept.AuthorizationFilter@3fde8f7c]
+2025-12-26 10:20:24,343 [main] 173  evel 173oggeer - Starting ProtocolHandler ["http-nio-8285"]
+2025-12-26 10:20:24,372 [main] 221  evel 221oggeer - Tomcat started on port 8285 (http) with context path ''
+2025-12-26 10:20:24,390 [main] 56   evel 56oggeer - Started BfsiSecurityApplication in 3.8 seconds (process running for 4.972)
+2025-12-26 10:20:35,443 [http-nio-8285-exec-2] 173  evel 173oggeer - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-26 10:20:35,443 [http-nio-8285-exec-2] 532  evel 532oggeer - Initializing Servlet 'dispatcherServlet'
+2025-12-26 10:20:35,445 [http-nio-8285-exec-2] 554  evel 554oggeer - Completed initialization in 2 ms
+2025-12-26 10:20:35,483 [http-nio-8285-exec-2] 454  evel 454oggeer - Cache miss for REQUEST dispatch to '/account' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-12-26 10:21:14,838 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 17079 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 10:21:14,852 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 10:21:16,575 [main] 108  evel 108oggeer - Tomcat initialized with port 8285 (http)
+2025-12-26 10:21:16,593 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8285"]
+2025-12-26 10:21:16,600 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 10:21:16,601 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 10:21:16,702 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 10:21:16,707 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 1703 ms
+2025-12-26 10:21:17,420 [main] 84   evel 84oggeer - 
+
+Using generated security password: 99e448a1-76cf-4bde-a622-1d5e06a530f7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-26 10:21:17,612 [main] 54   evel 54oggeer - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@59a2388e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@186d8a71, org.springframework.security.web.context.SecurityContextHolderFilter@384fda47, org.springframework.security.web.header.HeaderWriterFilter@4998e74b, org.springframework.web.filter.CorsFilter@3dc40ab9, org.springframework.security.web.csrf.CsrfFilter@740b6628, org.springframework.security.web.authentication.logout.LogoutFilter@5d66e944, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@262a1fad, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@261bd7b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2db6d68d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4bb147ec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@575cabf0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@433d9680, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6518fdfd, org.springframework.security.web.access.ExceptionTranslationFilter@1bedc703, org.springframework.security.web.access.intercept.AuthorizationFilter@1e01b133]
+2025-12-26 10:21:17,688 [main] 173  evel 173oggeer - Starting ProtocolHandler ["http-nio-8285"]
+2025-12-26 10:21:17,721 [main] 221  evel 221oggeer - Tomcat started on port 8285 (http) with context path ''
+2025-12-26 10:21:17,738 [main] 56   evel 56oggeer - Started BfsiSecurityApplication in 3.486 seconds (process running for 4.58)
+2025-12-26 10:21:23,720 [http-nio-8285-exec-1] 173  evel 173oggeer - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-26 10:21:23,720 [http-nio-8285-exec-1] 532  evel 532oggeer - Initializing Servlet 'dispatcherServlet'
+2025-12-26 10:21:23,749 [http-nio-8285-exec-1] 554  evel 554oggeer - Completed initialization in 26 ms
+2025-12-26 10:21:23,788 [http-nio-8285-exec-1] 223  evel 223oggeer - Securing GET /account
+2025-12-26 10:21:23,799 [http-nio-8285-exec-1] 454  evel 454oggeer - Cache miss for REQUEST dispatch to '/account' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-12-26 10:21:23,822 [http-nio-8285-exec-1] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:21:23,879 [http-nio-8285-exec-1] 80   evel 80oggeer - Saved request http://localhost:8285/account?continue to session
+2025-12-26 10:21:23,879 [http-nio-8285-exec-1] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@393b94a4, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:21:23,900 [http-nio-8285-exec-1] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@32091c14
+2025-12-26 10:21:23,909 [http-nio-8285-exec-1] 61   evel 61oggeer - Redirecting to http://localhost:8285/login
+2025-12-26 10:21:26,690 [http-nio-8285-exec-2] 223  evel 223oggeer - Securing GET /account
+2025-12-26 10:21:26,694 [http-nio-8285-exec-2] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:21:26,700 [http-nio-8285-exec-2] 80   evel 80oggeer - Saved request http://localhost:8285/account?continue to session
+2025-12-26 10:21:26,700 [http-nio-8285-exec-2] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@393b94a4, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:21:26,703 [http-nio-8285-exec-2] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@32091c14
+2025-12-26 10:21:26,704 [http-nio-8285-exec-2] 61   evel 61oggeer - Redirecting to http://localhost:8285/login
+2025-12-26 10:21:26,715 [http-nio-8285-exec-3] 223  evel 223oggeer - Securing GET /login
+2025-12-26 10:21:37,727 [http-nio-8285-exec-4] 223  evel 223oggeer - Securing POST /login
+2025-12-26 10:21:37,999 [http-nio-8285-exec-4] 136  evel 136oggeer - Failed to find user 'admin'
+2025-12-26 10:21:38,005 [http-nio-8285-exec-4] 61   evel 61oggeer - Redirecting to /login?error
+2025-12-26 10:21:38,012 [http-nio-8285-exec-5] 223  evel 223oggeer - Securing GET /login?error
+2025-12-26 10:24:23,783 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 17456 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 10:24:23,802 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 10:24:25,507 [main] 108  evel 108oggeer - Tomcat initialized with port 8285 (http)
+2025-12-26 10:24:25,522 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8285"]
+2025-12-26 10:24:25,526 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 10:24:25,527 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 10:24:25,616 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 10:24:25,620 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 1722 ms
+2025-12-26 10:24:26,131 [main] 84   evel 84oggeer - 
+
+Using generated security password: 85c8d6b9-99fd-4a60-a48d-50dd549b6c40
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-26 10:24:26,277 [main] 54   evel 54oggeer - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2db6d68d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6518fdfd, org.springframework.security.web.context.SecurityContextHolderFilter@433d9680, org.springframework.security.web.header.HeaderWriterFilter@384fda47, org.springframework.web.filter.CorsFilter@11d2dd2d, org.springframework.security.web.csrf.CsrfFilter@4342c13, org.springframework.security.web.authentication.logout.LogoutFilter@2f20f7ad, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@78da899f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@704067c6, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@cde8c6c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@59a2388e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2da81754, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f992a3a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@174721c4, org.springframework.security.web.access.ExceptionTranslationFilter@5d878b25, org.springframework.security.web.access.intercept.AuthorizationFilter@6b4125ed]
+2025-12-26 10:24:26,334 [main] 173  evel 173oggeer - Starting ProtocolHandler ["http-nio-8285"]
+2025-12-26 10:24:26,349 [main] 624  evel 624oggeer - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-12-26 10:24:26,384 [main] 82   evel 82oggeer - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-26 10:24:26,405 [main] 40   evel 40oggeer - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8285 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8285 or configure this application to listen on another port.
+
+2025-12-26 10:28:00,663 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 17880 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 10:28:00,689 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 10:28:02,490 [main] 108  evel 108oggeer - Tomcat initialized with port 8285 (http)
+2025-12-26 10:28:02,506 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8285"]
+2025-12-26 10:28:02,511 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 10:28:02,512 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 10:28:02,611 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 10:28:02,616 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 1829 ms
+2025-12-26 10:28:03,249 [main] 84   evel 84oggeer - 
+
+Using generated security password: 0b78a2b8-72b5-49ef-8348-3a24c1b9a8c2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-26 10:28:03,459 [main] 54   evel 54oggeer - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@78da899f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e7b265e, org.springframework.security.web.context.SecurityContextHolderFilter@2b73bd6b, org.springframework.security.web.header.HeaderWriterFilter@3a7b2e2, org.springframework.web.filter.CorsFilter@51da32e5, org.springframework.security.web.csrf.CsrfFilter@17207f5b, org.springframework.security.web.authentication.logout.LogoutFilter@78a8978a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@27f3f512, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5d878b25, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@33d60b7e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@262a1fad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@750ed637, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5190010f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1fecfaea, org.springframework.security.web.access.ExceptionTranslationFilter@7d8cf9ac, org.springframework.security.web.access.intercept.AuthorizationFilter@d13960e]
+2025-12-26 10:28:03,535 [main] 173  evel 173oggeer - Starting ProtocolHandler ["http-nio-8285"]
+2025-12-26 10:28:03,555 [main] 624  evel 624oggeer - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-12-26 10:28:03,605 [main] 82   evel 82oggeer - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-26 10:28:03,640 [main] 40   evel 40oggeer - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8285 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8285 or configure this application to listen on another port.
+
+2025-12-26 10:28:28,032 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 17969 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 10:28:28,052 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 10:28:29,750 [main] 108  evel 108oggeer - Tomcat initialized with port 8286 (http)
+2025-12-26 10:28:29,771 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8286"]
+2025-12-26 10:28:29,775 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 10:28:29,776 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 10:28:29,865 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 10:28:29,871 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 1731 ms
+2025-12-26 10:28:30,365 [main] 84   evel 84oggeer - 
+
+Using generated security password: 67ae2db1-968f-40d0-a7ac-975257352f45
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-26 10:28:30,504 [main] 54   evel 54oggeer - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@262a1fad, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6be6931f, org.springframework.security.web.context.SecurityContextHolderFilter@3a7b2e2, org.springframework.security.web.header.HeaderWriterFilter@58fd1214, org.springframework.web.filter.CorsFilter@6b4125ed, org.springframework.security.web.csrf.CsrfFilter@6588b715, org.springframework.security.web.authentication.logout.LogoutFilter@6002e944, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3ad8717d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1bedc703, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@78da899f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3ece79fe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2921a36a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b73bd6b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@e7b265e, org.springframework.security.web.access.ExceptionTranslationFilter@2ba1209b, org.springframework.security.web.access.intercept.AuthorizationFilter@5a0e0886]
+2025-12-26 10:28:30,565 [main] 173  evel 173oggeer - Starting ProtocolHandler ["http-nio-8286"]
+2025-12-26 10:28:30,596 [main] 221  evel 221oggeer - Tomcat started on port 8286 (http) with context path ''
+2025-12-26 10:28:30,613 [main] 56   evel 56oggeer - Started BfsiSecurityApplication in 3.165 seconds (process running for 4.254)
+2025-12-26 10:28:40,456 [http-nio-8285-exec-8] 223  evel 223oggeer - Securing GET /account
+2025-12-26 10:28:40,459 [http-nio-8285-exec-8] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:28:40,471 [http-nio-8285-exec-8] 80   evel 80oggeer - Saved request http://localhost:8285/account?continue to session
+2025-12-26 10:28:40,471 [http-nio-8285-exec-8] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@393b94a4, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:28:40,473 [http-nio-8285-exec-8] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@32091c14
+2025-12-26 10:28:40,473 [http-nio-8285-exec-8] 61   evel 61oggeer - Redirecting to http://localhost:8285/login
+2025-12-26 10:28:40,483 [http-nio-8285-exec-9] 223  evel 223oggeer - Securing GET /login
+2025-12-26 10:28:47,569 [http-nio-8286-exec-1] 173  evel 173oggeer - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-26 10:28:47,570 [http-nio-8286-exec-1] 532  evel 532oggeer - Initializing Servlet 'dispatcherServlet'
+2025-12-26 10:28:47,572 [http-nio-8286-exec-1] 554  evel 554oggeer - Completed initialization in 1 ms
+2025-12-26 10:28:47,582 [http-nio-8286-exec-1] 223  evel 223oggeer - Securing GET /account
+2025-12-26 10:28:47,591 [http-nio-8286-exec-1] 454  evel 454oggeer - Cache miss for REQUEST dispatch to '/account' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-12-26 10:28:47,643 [http-nio-8286-exec-1] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:28:47,676 [http-nio-8286-exec-1] 80   evel 80oggeer - Saved request http://localhost:8286/account?continue to session
+2025-12-26 10:28:47,677 [http-nio-8286-exec-1] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@5012631e, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:28:47,685 [http-nio-8286-exec-1] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@2921199d
+2025-12-26 10:28:47,687 [http-nio-8286-exec-1] 61   evel 61oggeer - Redirecting to http://localhost:8286/login
+2025-12-26 10:28:47,699 [http-nio-8286-exec-2] 223  evel 223oggeer - Securing GET /login
+2025-12-26 10:28:47,965 [http-nio-8286-exec-3] 223  evel 223oggeer - Securing GET /favicon.ico
+2025-12-26 10:28:47,968 [http-nio-8286-exec-3] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:28:47,968 [http-nio-8286-exec-3] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@5012631e, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:28:47,971 [http-nio-8286-exec-3] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@2921199d
+2025-12-26 10:28:47,972 [http-nio-8286-exec-3] 61   evel 61oggeer - Redirecting to http://localhost:8286/login
+2025-12-26 10:28:47,986 [http-nio-8286-exec-4] 223  evel 223oggeer - Securing GET /login
+2025-12-26 10:28:59,353 [http-nio-8286-exec-5] 223  evel 223oggeer - Securing POST /login
+2025-12-26 10:28:59,589 [http-nio-8286-exec-5] 136  evel 136oggeer - Failed to find user 'admin'
+2025-12-26 10:28:59,593 [http-nio-8286-exec-5] 61   evel 61oggeer - Redirecting to /login?error
+2025-12-26 10:28:59,599 [http-nio-8286-exec-6] 223  evel 223oggeer - Securing GET /login?error
+2025-12-26 10:28:59,668 [http-nio-8286-exec-7] 223  evel 223oggeer - Securing GET /favicon.ico
+2025-12-26 10:28:59,670 [http-nio-8286-exec-7] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:28:59,671 [http-nio-8286-exec-7] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@5012631e, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:28:59,672 [http-nio-8286-exec-7] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@2921199d
+2025-12-26 10:28:59,672 [http-nio-8286-exec-7] 61   evel 61oggeer - Redirecting to http://localhost:8286/login
+2025-12-26 10:28:59,685 [http-nio-8286-exec-9] 223  evel 223oggeer - Securing GET /login
+2025-12-26 10:33:55,961 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 18451 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 10:33:55,977 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 10:33:57,701 [main] 108  evel 108oggeer - Tomcat initialized with port 8286 (http)
+2025-12-26 10:33:57,716 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8286"]
+2025-12-26 10:33:57,720 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 10:33:57,721 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 10:33:57,815 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 10:33:57,823 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 1753 ms
+2025-12-26 10:33:58,377 [main] 84   evel 84oggeer - 
+
+Using generated security password: 35c5c966-6920-4a8e-b9aa-dd8542a4965e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-26 10:33:58,553 [main] 54   evel 54oggeer - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6be6931f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b4125ed, org.springframework.security.web.context.SecurityContextHolderFilter@337a6d30, org.springframework.security.web.header.HeaderWriterFilter@7d8cf9ac, org.springframework.web.filter.CorsFilter@78da899f, org.springframework.security.web.csrf.CsrfFilter@15a3b42, org.springframework.security.web.authentication.logout.LogoutFilter@588545ac, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4293e066, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@18d11527, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@e7b265e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3cc79c02, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b73bd6b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@157d3a45, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51da32e5, org.springframework.security.web.access.ExceptionTranslationFilter@7c241a9f, org.springframework.security.web.access.intercept.AuthorizationFilter@3ad8717d]
+2025-12-26 10:33:58,622 [main] 173  evel 173oggeer - Starting ProtocolHandler ["http-nio-8286"]
+2025-12-26 10:33:58,650 [main] 221  evel 221oggeer - Tomcat started on port 8286 (http) with context path ''
+2025-12-26 10:33:58,665 [main] 56   evel 56oggeer - Started BfsiSecurityApplication in 3.252 seconds (process running for 4.389)
+2025-12-26 10:34:04,917 [http-nio-8285-exec-1] 223  evel 223oggeer - Securing GET /account
+2025-12-26 10:34:04,925 [http-nio-8285-exec-1] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:34:04,930 [http-nio-8285-exec-1] 80   evel 80oggeer - Saved request http://localhost:8285/account?continue to session
+2025-12-26 10:34:04,931 [http-nio-8285-exec-1] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@393b94a4, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:34:04,932 [http-nio-8285-exec-1] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@32091c14
+2025-12-26 10:34:04,933 [http-nio-8285-exec-1] 61   evel 61oggeer - Redirecting to http://localhost:8285/login
+2025-12-26 10:34:04,945 [http-nio-8285-exec-2] 223  evel 223oggeer - Securing GET /login
+2025-12-26 10:34:12,117 [http-nio-8286-exec-1] 173  evel 173oggeer - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-26 10:34:12,118 [http-nio-8286-exec-1] 532  evel 532oggeer - Initializing Servlet 'dispatcherServlet'
+2025-12-26 10:34:12,120 [http-nio-8286-exec-1] 554  evel 554oggeer - Completed initialization in 1 ms
+2025-12-26 10:34:12,135 [http-nio-8286-exec-1] 223  evel 223oggeer - Securing GET /account
+2025-12-26 10:34:12,145 [http-nio-8286-exec-1] 454  evel 454oggeer - Cache miss for REQUEST dispatch to '/account' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-12-26 10:34:12,187 [http-nio-8286-exec-1] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:34:12,232 [http-nio-8286-exec-1] 80   evel 80oggeer - Saved request http://localhost:8286/account?continue to session
+2025-12-26 10:34:12,233 [http-nio-8286-exec-1] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@29d548f5, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:34:12,243 [http-nio-8286-exec-1] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@3d40a3b4
+2025-12-26 10:34:12,245 [http-nio-8286-exec-1] 61   evel 61oggeer - Redirecting to http://localhost:8286/login
+2025-12-26 10:34:12,260 [http-nio-8286-exec-2] 223  evel 223oggeer - Securing GET /login
+2025-12-26 10:34:12,486 [http-nio-8286-exec-3] 223  evel 223oggeer - Securing GET /favicon.ico
+2025-12-26 10:34:12,494 [http-nio-8286-exec-3] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:34:12,496 [http-nio-8286-exec-3] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@29d548f5, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:34:12,498 [http-nio-8286-exec-3] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@3d40a3b4
+2025-12-26 10:34:12,500 [http-nio-8286-exec-3] 61   evel 61oggeer - Redirecting to http://localhost:8286/login
+2025-12-26 10:34:12,516 [http-nio-8286-exec-4] 223  evel 223oggeer - Securing GET /login
+2025-12-26 10:38:03,533 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 18991 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 10:38:03,561 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 10:38:05,274 [main] 108  evel 108oggeer - Tomcat initialized with port 8282 (http)
+2025-12-26 10:38:05,286 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8282"]
+2025-12-26 10:38:05,290 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 10:38:05,291 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 10:38:05,351 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 10:38:05,355 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 1683 ms
+2025-12-26 10:38:05,955 [main] 84   evel 84oggeer - 
+
+Using generated security password: 61c0715b-2446-414d-9a34-ff9df0d8e66d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-26 10:38:06,150 [main] 54   evel 54oggeer - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@ac91282, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f79edee, org.springframework.security.web.context.SecurityContextHolderFilter@61ffd148, org.springframework.security.web.header.HeaderWriterFilter@79980d8d, org.springframework.web.filter.CorsFilter@1ca610a0, org.springframework.security.web.csrf.CsrfFilter@996a546, org.springframework.security.web.authentication.logout.LogoutFilter@7698b7a4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@39941489, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@42507640, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@49433c98, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1f9d4b0e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d7d8613, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6eb089e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b5c6a30, org.springframework.security.web.access.ExceptionTranslationFilter@2e5e6fc4, org.springframework.security.web.access.intercept.AuthorizationFilter@789c3057]
+2025-12-26 10:38:06,249 [main] 173  evel 173oggeer - Starting ProtocolHandler ["http-nio-8282"]
+2025-12-26 10:38:06,268 [main] 624  evel 624oggeer - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-12-26 10:38:06,314 [main] 82   evel 82oggeer - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-26 10:38:06,349 [main] 40   evel 40oggeer - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8282 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8282 or configure this application to listen on another port.
+
+2025-12-26 10:39:31,342 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 19195 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 10:39:31,359 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 10:39:32,939 [main] 108  evel 108oggeer - Tomcat initialized with port 8283 (http)
+2025-12-26 10:39:32,955 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8283"]
+2025-12-26 10:39:32,963 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 10:39:32,964 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 10:39:33,062 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 10:39:33,068 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 1622 ms
+2025-12-26 10:39:33,813 [main] 84   evel 84oggeer - 
+
+Using generated security password: 66afc29d-ce30-4592-94f7-8cec9c2a9567
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-26 10:39:34,003 [main] 54   evel 54oggeer - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e8fb66f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d8d17a3, org.springframework.security.web.context.SecurityContextHolderFilter@35d60381, org.springframework.security.web.header.HeaderWriterFilter@2e5e6fc4, org.springframework.web.filter.CorsFilter@ac91282, org.springframework.security.web.csrf.CsrfFilter@69de5bed, org.springframework.security.web.authentication.logout.LogoutFilter@21de60a7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@536b71b4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@abad89c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7f79edee, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4c3de38e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61ffd148, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58324c9f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ca610a0, org.springframework.security.web.access.ExceptionTranslationFilter@1cc8416a, org.springframework.security.web.access.intercept.AuthorizationFilter@67f63d26]
+2025-12-26 10:39:34,073 [main] 173  evel 173oggeer - Starting ProtocolHandler ["http-nio-8283"]
+2025-12-26 10:39:34,090 [main] 624  evel 624oggeer - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-12-26 10:39:34,124 [main] 82   evel 82oggeer - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-26 10:39:34,149 [main] 40   evel 40oggeer - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8283 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8283 or configure this application to listen on another port.
+
+2025-12-26 10:40:03,910 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 19243 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 10:40:03,932 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 10:40:05,911 [main] 108  evel 108oggeer - Tomcat initialized with port 8287 (http)
+2025-12-26 10:40:05,932 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8287"]
+2025-12-26 10:40:05,939 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 10:40:05,940 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 10:40:06,021 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 10:40:06,025 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 1992 ms
+2025-12-26 10:40:06,522 [main] 84   evel 84oggeer - 
+
+Using generated security password: bcdc2042-1bec-486a-ac99-da3252e67372
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-26 10:40:06,688 [main] 54   evel 54oggeer - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6f5d0190, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67332b1e, org.springframework.security.web.context.SecurityContextHolderFilter@45117dd, org.springframework.security.web.header.HeaderWriterFilter@19fd43da, org.springframework.web.filter.CorsFilter@7e34b127, org.springframework.security.web.csrf.CsrfFilter@46fb0c33, org.springframework.security.web.authentication.logout.LogoutFilter@2a47597, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@ee8e7ff, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2785db06, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@679dd234, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@536b71b4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@834e986, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6cae2e4d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60cb1ed6, org.springframework.security.web.access.ExceptionTranslationFilter@22d7fd41, org.springframework.security.web.access.intercept.AuthorizationFilter@7a682d35]
+2025-12-26 10:40:06,752 [main] 173  evel 173oggeer - Starting ProtocolHandler ["http-nio-8287"]
+2025-12-26 10:40:06,778 [main] 221  evel 221oggeer - Tomcat started on port 8287 (http) with context path ''
+2025-12-26 10:40:06,796 [main] 56   evel 56oggeer - Started BfsiSecurityApplication in 3.475 seconds (process running for 4.565)
+2025-12-26 10:40:11,978 [http-nio-8285-exec-4] 223  evel 223oggeer - Securing GET /account
+2025-12-26 10:40:11,987 [http-nio-8285-exec-4] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:40:11,992 [http-nio-8285-exec-4] 80   evel 80oggeer - Saved request http://localhost:8285/account?continue to session
+2025-12-26 10:40:11,993 [http-nio-8285-exec-4] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@393b94a4, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:40:11,994 [http-nio-8285-exec-4] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@32091c14
+2025-12-26 10:40:11,996 [http-nio-8285-exec-4] 61   evel 61oggeer - Redirecting to http://localhost:8285/login
+2025-12-26 10:40:12,008 [http-nio-8285-exec-5] 223  evel 223oggeer - Securing GET /login
+2025-12-26 10:40:20,062 [http-nio-8287-exec-1] 173  evel 173oggeer - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-26 10:40:20,063 [http-nio-8287-exec-1] 532  evel 532oggeer - Initializing Servlet 'dispatcherServlet'
+2025-12-26 10:40:20,065 [http-nio-8287-exec-1] 554  evel 554oggeer - Completed initialization in 2 ms
+2025-12-26 10:40:20,078 [http-nio-8287-exec-1] 223  evel 223oggeer - Securing GET /account
+2025-12-26 10:40:20,087 [http-nio-8287-exec-1] 454  evel 454oggeer - Cache miss for REQUEST dispatch to '/account' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-12-26 10:40:20,134 [http-nio-8287-exec-1] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:40:20,170 [http-nio-8287-exec-1] 80   evel 80oggeer - Saved request http://localhost:8287/account?continue to session
+2025-12-26 10:40:20,170 [http-nio-8287-exec-1] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@1ffa0568, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:40:20,179 [http-nio-8287-exec-1] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@7f6329cb
+2025-12-26 10:40:20,180 [http-nio-8287-exec-1] 61   evel 61oggeer - Redirecting to http://localhost:8287/login
+2025-12-26 10:40:20,192 [http-nio-8287-exec-2] 223  evel 223oggeer - Securing GET /login
+2025-12-26 10:40:20,420 [http-nio-8287-exec-3] 223  evel 223oggeer - Securing GET /favicon.ico
+2025-12-26 10:40:20,423 [http-nio-8287-exec-3] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:40:20,425 [http-nio-8287-exec-3] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@1ffa0568, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:40:20,427 [http-nio-8287-exec-3] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@7f6329cb
+2025-12-26 10:40:20,428 [http-nio-8287-exec-3] 61   evel 61oggeer - Redirecting to http://localhost:8287/login
+2025-12-26 10:40:20,436 [http-nio-8287-exec-4] 223  evel 223oggeer - Securing GET /login
+2025-12-26 10:49:05,657 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 20093 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 10:49:05,676 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 10:49:07,616 [main] 108  evel 108oggeer - Tomcat initialized with port 8287 (http)
+2025-12-26 10:49:07,631 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8287"]
+2025-12-26 10:49:07,635 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 10:49:07,636 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 10:49:07,704 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 10:49:07,710 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 1940 ms
+2025-12-26 10:49:08,195 [main] 84   evel 84oggeer - 
+
+Using generated security password: 1306cd1a-3e19-4266-bf7b-a1edb91e1362
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-26 10:49:08,352 [main] 54   evel 54oggeer - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7a1b8a46, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2921199d, org.springframework.security.web.context.SecurityContextHolderFilter@11dcd42c, org.springframework.security.web.header.HeaderWriterFilter@602f8f94, org.springframework.web.filter.CorsFilter@3d40a3b4, org.springframework.security.web.csrf.CsrfFilter@45117dd, org.springframework.security.web.authentication.logout.LogoutFilter@52454457, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1f9d4b0e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7e64c1a9, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7f13811b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@47829d6d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c302f38, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75aea2ba, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59fc6d05, org.springframework.security.web.access.ExceptionTranslationFilter@3bc69ce9, org.springframework.security.web.access.intercept.AuthorizationFilter@74b86971]
+2025-12-26 10:49:08,421 [main] 173  evel 173oggeer - Starting ProtocolHandler ["http-nio-8287"]
+2025-12-26 10:49:08,451 [main] 221  evel 221oggeer - Tomcat started on port 8287 (http) with context path ''
+2025-12-26 10:49:08,471 [main] 56   evel 56oggeer - Started BfsiSecurityApplication in 3.352 seconds (process running for 4.436)
+2025-12-26 10:49:15,038 [http-nio-8285-exec-6] 223  evel 223oggeer - Securing GET /account
+2025-12-26 10:49:15,041 [http-nio-8285-exec-6] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:49:15,047 [http-nio-8285-exec-6] 80   evel 80oggeer - Saved request http://localhost:8285/account?continue to session
+2025-12-26 10:49:15,050 [http-nio-8285-exec-6] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@393b94a4, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:49:15,056 [http-nio-8285-exec-6] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@32091c14
+2025-12-26 10:49:15,056 [http-nio-8285-exec-6] 61   evel 61oggeer - Redirecting to http://localhost:8285/login
+2025-12-26 10:49:15,066 [http-nio-8285-exec-8] 223  evel 223oggeer - Securing GET /login
+2025-12-26 10:49:20,750 [http-nio-8287-exec-1] 173  evel 173oggeer - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-26 10:49:20,751 [http-nio-8287-exec-1] 532  evel 532oggeer - Initializing Servlet 'dispatcherServlet'
+2025-12-26 10:49:20,753 [http-nio-8287-exec-1] 554  evel 554oggeer - Completed initialization in 2 ms
+2025-12-26 10:49:20,763 [http-nio-8287-exec-1] 223  evel 223oggeer - Securing GET /account
+2025-12-26 10:49:20,771 [http-nio-8287-exec-1] 454  evel 454oggeer - Cache miss for REQUEST dispatch to '/account' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-12-26 10:49:20,789 [http-nio-8287-exec-1] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:49:20,815 [http-nio-8287-exec-1] 80   evel 80oggeer - Saved request http://localhost:8287/account?continue to session
+2025-12-26 10:49:20,815 [http-nio-8287-exec-1] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@3b302d2a, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:49:20,824 [http-nio-8287-exec-1] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@79e7188e
+2025-12-26 10:49:20,826 [http-nio-8287-exec-1] 61   evel 61oggeer - Redirecting to http://localhost:8287/login
+2025-12-26 10:49:20,838 [http-nio-8287-exec-2] 223  evel 223oggeer - Securing GET /login
+2025-12-26 10:49:21,057 [http-nio-8287-exec-3] 223  evel 223oggeer - Securing GET /favicon.ico
+2025-12-26 10:49:21,060 [http-nio-8287-exec-3] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:49:21,061 [http-nio-8287-exec-3] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@3b302d2a, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:49:21,062 [http-nio-8287-exec-3] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@79e7188e
+2025-12-26 10:49:21,063 [http-nio-8287-exec-3] 61   evel 61oggeer - Redirecting to http://localhost:8287/login
+2025-12-26 10:49:21,074 [http-nio-8287-exec-4] 223  evel 223oggeer - Securing GET /login
+2025-12-26 10:49:28,710 [http-nio-8287-exec-5] 223  evel 223oggeer - Securing POST /login
+2025-12-26 10:49:28,948 [http-nio-8287-exec-5] 136  evel 136oggeer - Failed to find user 'admin'
+2025-12-26 10:49:28,953 [http-nio-8287-exec-5] 61   evel 61oggeer - Redirecting to /login?error
+2025-12-26 10:49:28,959 [http-nio-8287-exec-6] 223  evel 223oggeer - Securing GET /login?error
+2025-12-26 10:49:29,022 [http-nio-8287-exec-7] 223  evel 223oggeer - Securing GET /favicon.ico
+2025-12-26 10:49:29,024 [http-nio-8287-exec-7] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:49:29,025 [http-nio-8287-exec-7] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@3b302d2a, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:49:29,026 [http-nio-8287-exec-7] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@79e7188e
+2025-12-26 10:49:29,029 [http-nio-8287-exec-7] 61   evel 61oggeer - Redirecting to http://localhost:8287/login
+2025-12-26 10:49:29,038 [http-nio-8287-exec-8] 223  evel 223oggeer - Securing GET /login
+2025-12-26 10:50:01,700 [http-nio-8287-exec-9] 223  evel 223oggeer - Securing GET /account
+2025-12-26 10:50:01,702 [http-nio-8287-exec-9] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:50:01,706 [http-nio-8287-exec-9] 80   evel 80oggeer - Saved request http://localhost:8287/account?continue to session
+2025-12-26 10:50:01,706 [http-nio-8287-exec-9] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@3b302d2a, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:50:01,707 [http-nio-8287-exec-9] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@79e7188e
+2025-12-26 10:50:01,708 [http-nio-8287-exec-9] 61   evel 61oggeer - Redirecting to http://localhost:8287/login
+2025-12-26 10:50:01,722 [http-nio-8287-exec-10] 223  evel 223oggeer - Securing GET /login
+2025-12-26 10:50:01,803 [http-nio-8287-exec-1] 223  evel 223oggeer - Securing GET /favicon.ico
+2025-12-26 10:50:01,805 [http-nio-8287-exec-1] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:50:01,806 [http-nio-8287-exec-1] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@3b302d2a, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:50:01,806 [http-nio-8287-exec-1] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@79e7188e
+2025-12-26 10:50:01,807 [http-nio-8287-exec-1] 61   evel 61oggeer - Redirecting to http://localhost:8287/login
+2025-12-26 10:50:01,817 [http-nio-8287-exec-2] 223  evel 223oggeer - Securing GET /login
+2025-12-26 10:52:33,345 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 20565 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 10:52:33,366 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 10:52:35,057 [main] 108  evel 108oggeer - Tomcat initialized with port 8287 (http)
+2025-12-26 10:52:35,075 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8287"]
+2025-12-26 10:52:35,082 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 10:52:35,083 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 10:52:35,183 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 10:52:35,191 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 1731 ms
+2025-12-26 10:52:35,815 [main] 84   evel 84oggeer - 
+
+Using generated security password: a15f3aa3-c1ba-449c-a98d-220b19670ffd
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-26 10:52:36,003 [main] 54   evel 54oggeer - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7e34b127, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@679dd234, org.springframework.security.web.context.SecurityContextHolderFilter@834e986, org.springframework.security.web.header.HeaderWriterFilter@cfd1075, org.springframework.web.filter.CorsFilter@60cb1ed6, org.springframework.security.web.csrf.CsrfFilter@270a620, org.springframework.security.web.authentication.logout.LogoutFilter@5ff6dd3c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@64b70f41, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@35d60381, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1e5eb20a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@39941489, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@604d23fa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1cc8416a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4538856f, org.springframework.security.web.access.ExceptionTranslationFilter@19fd43da, org.springframework.security.web.access.intercept.AuthorizationFilter@61a2aeb7]
+2025-12-26 10:52:36,080 [main] 173  evel 173oggeer - Starting ProtocolHandler ["http-nio-8287"]
+2025-12-26 10:52:36,117 [main] 221  evel 221oggeer - Tomcat started on port 8287 (http) with context path ''
+2025-12-26 10:52:36,142 [main] 56   evel 56oggeer - Started BfsiSecurityApplication in 3.437 seconds (process running for 4.658)
+2025-12-26 10:52:41,366 [http-nio-8287-exec-1] 173  evel 173oggeer - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-26 10:52:41,366 [http-nio-8287-exec-1] 532  evel 532oggeer - Initializing Servlet 'dispatcherServlet'
+2025-12-26 10:52:41,369 [http-nio-8287-exec-1] 554  evel 554oggeer - Completed initialization in 1 ms
+2025-12-26 10:52:41,380 [http-nio-8287-exec-1] 223  evel 223oggeer - Securing GET /account
+2025-12-26 10:52:41,389 [http-nio-8287-exec-1] 454  evel 454oggeer - Cache miss for REQUEST dispatch to '/account' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-12-26 10:52:41,407 [http-nio-8287-exec-1] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:52:41,452 [http-nio-8287-exec-1] 80   evel 80oggeer - Saved request http://localhost:8287/account?continue to session
+2025-12-26 10:52:41,453 [http-nio-8287-exec-1] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@1ffa0568, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:52:41,471 [http-nio-8287-exec-1] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@77f4c040
+2025-12-26 10:52:41,472 [http-nio-8287-exec-1] 61   evel 61oggeer - Redirecting to http://localhost:8287/login
+2025-12-26 10:52:41,489 [http-nio-8287-exec-2] 223  evel 223oggeer - Securing GET /login
+2025-12-26 10:52:41,645 [http-nio-8287-exec-3] 223  evel 223oggeer - Securing GET /favicon.ico
+2025-12-26 10:52:41,648 [http-nio-8287-exec-3] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:52:41,650 [http-nio-8287-exec-3] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@1ffa0568, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:52:41,652 [http-nio-8287-exec-3] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@77f4c040
+2025-12-26 10:52:41,653 [http-nio-8287-exec-3] 61   evel 61oggeer - Redirecting to http://localhost:8287/login
+2025-12-26 10:52:41,658 [http-nio-8287-exec-4] 223  evel 223oggeer - Securing GET /login
+2025-12-26 10:52:49,844 [http-nio-8287-exec-5] 223  evel 223oggeer - Securing POST /login
+2025-12-26 10:52:50,119 [http-nio-8287-exec-5] 136  evel 136oggeer - Failed to find user 'admin'
+2025-12-26 10:52:50,124 [http-nio-8287-exec-5] 61   evel 61oggeer - Redirecting to /login?error
+2025-12-26 10:52:50,130 [http-nio-8287-exec-6] 223  evel 223oggeer - Securing GET /login?error
+2025-12-26 10:52:50,195 [http-nio-8287-exec-7] 223  evel 223oggeer - Securing GET /favicon.ico
+2025-12-26 10:52:50,197 [http-nio-8287-exec-7] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 10:52:50,198 [http-nio-8287-exec-7] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@1ffa0568, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 10:52:50,199 [http-nio-8287-exec-7] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@77f4c040
+2025-12-26 10:52:50,200 [http-nio-8287-exec-7] 61   evel 61oggeer - Redirecting to http://localhost:8287/login
+2025-12-26 10:52:50,209 [http-nio-8287-exec-8] 223  evel 223oggeer - Securing GET /login
+2025-12-26 10:56:57,121 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 20991 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 10:56:57,138 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 10:56:58,802 [main] 108  evel 108oggeer - Tomcat initialized with port 8287 (http)
+2025-12-26 10:56:58,816 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8287"]
+2025-12-26 10:56:58,820 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 10:56:58,821 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 10:56:58,900 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 10:56:58,904 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 1685 ms
+2025-12-26 10:56:59,012 [main] 624  evel 624oggeer - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig' defined in file [/home/labuser/eclipse-workspace/Spring-Security/target/classes/com/bfsi/config/SecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'securityConfig': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2025-12-26 10:56:59,019 [main] 173  evel 173oggeer - Stopping service [Tomcat]
+2025-12-26 10:56:59,054 [main] 82   evel 82oggeer - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-26 10:56:59,082 [main] 40   evel 40oggeer - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  securityConfig defined in file [/home/labuser/eclipse-workspace/Spring-Security/target/classes/com/bfsi/config/SecurityConfig.class]
+└──<-──┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2025-12-26 11:01:18,392 [http-nio-8285-exec-10] 223  evel 223oggeer - Securing GET /account
+2025-12-26 11:01:18,403 [http-nio-8285-exec-10] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 11:01:18,407 [http-nio-8285-exec-10] 80   evel 80oggeer - Saved request http://localhost:8285/account?continue to session
+2025-12-26 11:01:18,412 [http-nio-8285-exec-10] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@393b94a4, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 11:01:18,414 [http-nio-8285-exec-10] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@32091c14
+2025-12-26 11:01:18,414 [http-nio-8285-exec-10] 61   evel 61oggeer - Redirecting to http://localhost:8285/login
+2025-12-26 11:01:18,421 [http-nio-8285-exec-1] 223  evel 223oggeer - Securing GET /login
+2025-12-26 11:06:36,294 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 21973 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 11:06:36,312 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 11:06:38,058 [main] 108  evel 108oggeer - Tomcat initialized with port 8287 (http)
+2025-12-26 11:06:38,077 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8287"]
+2025-12-26 11:06:38,086 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 11:06:38,087 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 11:06:38,196 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 11:06:38,200 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 1799 ms
+2025-12-26 11:06:38,313 [main] 624  evel 624oggeer - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig' defined in file [/home/labuser/eclipse-workspace/Spring-Security/target/classes/com/bfsi/config/SecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'securityConfig': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2025-12-26 11:06:38,321 [main] 173  evel 173oggeer - Stopping service [Tomcat]
+2025-12-26 11:06:38,360 [main] 82   evel 82oggeer - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-26 11:06:38,388 [main] 40   evel 40oggeer - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  securityConfig defined in file [/home/labuser/eclipse-workspace/Spring-Security/target/classes/com/bfsi/config/SecurityConfig.class]
+└──<-──┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2025-12-26 11:09:13,823 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 22186 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 11:09:13,839 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 11:09:15,791 [main] 108  evel 108oggeer - Tomcat initialized with port 8287 (http)
+2025-12-26 11:09:15,808 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8287"]
+2025-12-26 11:09:15,813 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 11:09:15,814 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 11:09:15,895 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 11:09:15,903 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 1951 ms
+2025-12-26 11:09:16,016 [main] 624  evel 624oggeer - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig' defined in file [/home/labuser/eclipse-workspace/Spring-Security/target/classes/com/bfsi/config/SecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'securityConfig': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2025-12-26 11:09:16,023 [main] 173  evel 173oggeer - Stopping service [Tomcat]
+2025-12-26 11:09:16,053 [main] 82   evel 82oggeer - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-26 11:09:16,081 [main] 40   evel 40oggeer - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌──->──┐
+|  securityConfig defined in file [/home/labuser/eclipse-workspace/Spring-Security/target/classes/com/bfsi/config/SecurityConfig.class]
+└──<-──┘
+
+
+Action:
+
+Despite circular references being allowed, the dependency cycle between beans could not be broken. Update your application to remove the dependency cycle.
+
+2025-12-26 11:10:19,929 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 22358 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 11:10:19,951 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 11:10:23,801 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 22394 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 11:10:23,815 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 11:10:25,515 [main] 108  evel 108oggeer - Tomcat initialized with port 8287 (http)
+2025-12-26 11:10:25,532 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8287"]
+2025-12-26 11:10:25,536 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 11:10:25,537 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 11:10:25,632 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 11:10:25,640 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 1727 ms
+2025-12-26 11:10:26,378 [main] 54   evel 54oggeer - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3b2e5c0d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7499eac7, org.springframework.security.web.context.SecurityContextHolderFilter@70d77826, org.springframework.security.web.header.HeaderWriterFilter@16132f21, org.springframework.web.filter.CorsFilter@5438c17a, org.springframework.security.web.authentication.logout.LogoutFilter@66fb45e5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@d611f1c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@76e90da5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@b9d018b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@f25f48a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f169009, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9dada78, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@429aeac1, org.springframework.security.web.access.ExceptionTranslationFilter@7793ad58, org.springframework.security.web.access.intercept.AuthorizationFilter@61874b9d]
+2025-12-26 11:10:26,606 [main] 173  evel 173oggeer - Starting ProtocolHandler ["http-nio-8287"]
+2025-12-26 11:10:26,632 [main] 221  evel 221oggeer - Tomcat started on port 8287 (http) with context path ''
+2025-12-26 11:10:26,651 [main] 56   evel 56oggeer - Started BfsiSecurityApplication in 3.447 seconds (process running for 4.44)
+2025-12-26 11:10:33,047 [http-nio-8285-exec-3] 223  evel 223oggeer - Securing GET /account
+2025-12-26 11:10:33,058 [http-nio-8285-exec-3] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 11:10:33,063 [http-nio-8285-exec-3] 80   evel 80oggeer - Saved request http://localhost:8285/account?continue to session
+2025-12-26 11:10:33,065 [http-nio-8285-exec-3] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@393b94a4, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 11:10:33,068 [http-nio-8285-exec-3] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@32091c14
+2025-12-26 11:10:33,070 [http-nio-8285-exec-3] 61   evel 61oggeer - Redirecting to http://localhost:8285/login
+2025-12-26 11:10:33,090 [http-nio-8285-exec-4] 223  evel 223oggeer - Securing GET /login
+2025-12-26 11:10:39,870 [http-nio-8287-exec-1] 173  evel 173oggeer - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-26 11:10:39,872 [http-nio-8287-exec-1] 532  evel 532oggeer - Initializing Servlet 'dispatcherServlet'
+2025-12-26 11:10:39,876 [http-nio-8287-exec-1] 554  evel 554oggeer - Completed initialization in 2 ms
+2025-12-26 11:10:39,892 [http-nio-8287-exec-1] 223  evel 223oggeer - Securing GET /account
+2025-12-26 11:10:39,911 [http-nio-8287-exec-1] 454  evel 454oggeer - Cache miss for REQUEST dispatch to '/account' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-12-26 11:10:39,930 [http-nio-8287-exec-1] 454  evel 454oggeer - Cache miss for REQUEST dispatch to '/account' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-12-26 11:10:39,935 [http-nio-8287-exec-1] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 11:10:39,960 [http-nio-8287-exec-1] 80   evel 80oggeer - Saved request http://localhost:8287/account?continue to session
+2025-12-26 11:10:39,961 [http-nio-8287-exec-1] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@38b206cc, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 11:10:39,966 [http-nio-8287-exec-1] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@2f80cb79
+2025-12-26 11:10:39,968 [http-nio-8287-exec-1] 61   evel 61oggeer - Redirecting to http://localhost:8287/login
+2025-12-26 11:10:39,977 [http-nio-8287-exec-2] 223  evel 223oggeer - Securing GET /login
+2025-12-26 11:10:42,614 [http-nio-8287-exec-3] 223  evel 223oggeer - Securing GET /favicon.ico
+2025-12-26 11:10:42,619 [http-nio-8287-exec-3] 227  evel 227oggeer - Secured GET /favicon.ico
+2025-12-26 11:10:42,636 [http-nio-8287-exec-3] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 11:10:42,642 [http-nio-8287-exec-3] 223  evel 223oggeer - Securing GET /error
+2025-12-26 11:10:42,646 [http-nio-8287-exec-3] 227  evel 227oggeer - Secured GET /error
+2025-12-26 11:10:42,762 [http-nio-8287-exec-3] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 11:11:11,303 [http-nio-8287-exec-4] 223  evel 223oggeer - Securing GET /account
+2025-12-26 11:11:11,307 [http-nio-8287-exec-4] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 11:11:11,310 [http-nio-8287-exec-4] 80   evel 80oggeer - Saved request http://localhost:8287/account?continue to session
+2025-12-26 11:11:11,311 [http-nio-8287-exec-4] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@38b206cc, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 11:11:11,312 [http-nio-8287-exec-4] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@2f80cb79
+2025-12-26 11:11:11,313 [http-nio-8287-exec-4] 61   evel 61oggeer - Redirecting to http://localhost:8287/login
+2025-12-26 11:11:11,320 [http-nio-8287-exec-5] 223  evel 223oggeer - Securing GET /login
+2025-12-26 11:11:18,614 [http-nio-8287-exec-6] 223  evel 223oggeer - Securing POST /login
+2025-12-26 11:11:18,845 [http-nio-8287-exec-6] 199  evel 199oggeer - Authenticated user
+2025-12-26 11:11:18,848 [http-nio-8287-exec-6] 19   evel 19oggeer - Login success for user: admin
+2025-12-26 11:11:18,849 [http-nio-8287-exec-6] 98   evel 98oggeer - Changed session id from 6DC2E27BC95EC7DECB0CA4ED6691EF01
+2025-12-26 11:11:18,850 [http-nio-8287-exec-6] 178  evel 178oggeer - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=admin, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_USER]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=6DC2E27BC95EC7DECB0CA4ED6691EF01], Granted Authorities=[ROLE_USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@7930438c]
+2025-12-26 11:11:18,851 [http-nio-8287-exec-6] 327  evel 327oggeer - Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=admin, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_USER]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=6DC2E27BC95EC7DECB0CA4ED6691EF01], Granted Authorities=[ROLE_USER]]
+2025-12-26 11:11:18,853 [http-nio-8287-exec-6] 61   evel 61oggeer - Redirecting to /account
+2025-12-26 11:11:18,860 [http-nio-8287-exec-7] 223  evel 223oggeer - Securing GET /account
+2025-12-26 11:11:18,862 [http-nio-8287-exec-7] 234  evel 234oggeer - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=admin, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_USER]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=6DC2E27BC95EC7DECB0CA4ED6691EF01], Granted Authorities=[ROLE_USER]]]
+2025-12-26 11:11:18,862 [http-nio-8287-exec-7] 227  evel 227oggeer - Secured GET /account
+2025-12-26 11:15:57,567 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 22865 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 11:15:57,585 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 11:15:59,368 [main] 108  evel 108oggeer - Tomcat initialized with port 8287 (http)
+2025-12-26 11:15:59,388 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8287"]
+2025-12-26 11:15:59,394 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 11:15:59,395 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 11:15:59,494 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 11:15:59,499 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 1822 ms
+2025-12-26 11:16:00,240 [main] 54   evel 54oggeer - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7bdf61ad, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54336976, org.springframework.security.web.context.SecurityContextHolderFilter@27e2287c, org.springframework.security.web.header.HeaderWriterFilter@6f5bd362, org.springframework.web.filter.CorsFilter@f25f48a, org.springframework.security.web.authentication.logout.LogoutFilter@5af64ce0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@22d9ca63, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4207852d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3b7c80c6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1d98daa0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2cd388f5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4640195a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b2e5c0d, org.springframework.security.web.access.ExceptionTranslationFilter@468173fa, org.springframework.security.web.access.intercept.AuthorizationFilter@136ccbfe]
+2025-12-26 11:16:00,469 [main] 173  evel 173oggeer - Starting ProtocolHandler ["http-nio-8287"]
+2025-12-26 11:16:00,496 [main] 221  evel 221oggeer - Tomcat started on port 8287 (http) with context path ''
+2025-12-26 11:16:00,514 [main] 56   evel 56oggeer - Started BfsiSecurityApplication in 3.676 seconds (process running for 4.902)
+2025-12-26 11:16:09,203 [http-nio-8287-exec-1] 173  evel 173oggeer - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-26 11:16:09,204 [http-nio-8287-exec-1] 532  evel 532oggeer - Initializing Servlet 'dispatcherServlet'
+2025-12-26 11:16:09,206 [http-nio-8287-exec-1] 554  evel 554oggeer - Completed initialization in 1 ms
+2025-12-26 11:16:09,223 [http-nio-8287-exec-1] 223  evel 223oggeer - Securing GET /account
+2025-12-26 11:16:09,242 [http-nio-8287-exec-1] 454  evel 454oggeer - Cache miss for REQUEST dispatch to '/account' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-12-26 11:16:09,267 [http-nio-8287-exec-1] 454  evel 454oggeer - Cache miss for REQUEST dispatch to '/account' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-12-26 11:16:09,271 [http-nio-8287-exec-1] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 11:16:09,299 [http-nio-8287-exec-1] 80   evel 80oggeer - Saved request http://localhost:8287/account?continue to session
+2025-12-26 11:16:09,300 [http-nio-8287-exec-1] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@38b206cc, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 11:16:09,306 [http-nio-8287-exec-1] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@5503de1
+2025-12-26 11:16:09,308 [http-nio-8287-exec-1] 61   evel 61oggeer - Redirecting to http://localhost:8287/login
+2025-12-26 11:16:09,318 [http-nio-8287-exec-2] 223  evel 223oggeer - Securing GET /login
+2025-12-26 11:16:19,161 [http-nio-8287-exec-3] 223  evel 223oggeer - Securing POST /login
+2025-12-26 11:16:19,388 [http-nio-8287-exec-3] 199  evel 199oggeer - Authenticated user
+2025-12-26 11:16:19,391 [http-nio-8287-exec-3] 19   evel 19oggeer - Login success for user: admin
+2025-12-26 11:16:19,394 [http-nio-8287-exec-3] 98   evel 98oggeer - Changed session id from 951C39C31B9D827B9CFD0FEF12CD0DF4
+2025-12-26 11:16:19,395 [http-nio-8287-exec-3] 178  evel 178oggeer - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=admin, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_USER]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=951C39C31B9D827B9CFD0FEF12CD0DF4], Granted Authorities=[ROLE_USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@bb381e5]
+2025-12-26 11:16:19,396 [http-nio-8287-exec-3] 327  evel 327oggeer - Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=admin, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_USER]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=951C39C31B9D827B9CFD0FEF12CD0DF4], Granted Authorities=[ROLE_USER]]
+2025-12-26 11:16:19,397 [http-nio-8287-exec-3] 61   evel 61oggeer - Redirecting to /account
+2025-12-26 11:16:19,404 [http-nio-8287-exec-4] 223  evel 223oggeer - Securing GET /account
+2025-12-26 11:16:19,406 [http-nio-8287-exec-4] 234  evel 234oggeer - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=admin, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_USER]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=951C39C31B9D827B9CFD0FEF12CD0DF4], Granted Authorities=[ROLE_USER]]]
+2025-12-26 11:16:19,408 [http-nio-8287-exec-4] 227  evel 227oggeer - Secured GET /account
+2025-12-26 11:18:53,515 [main] 50   evel 50oggeer - Starting BfsiSecurityApplication using Java 17.0.17 with PID 23149 (/home/labuser/eclipse-workspace/Spring-Security/target/classes started by labuser in /home/labuser/eclipse-workspace/Spring-Security)
+2025-12-26 11:18:53,534 [main] 653  evel 653oggeer - No active profile set, falling back to 1 default profile: "default"
+2025-12-26 11:18:55,261 [main] 108  evel 108oggeer - Tomcat initialized with port 8287 (http)
+2025-12-26 11:18:55,278 [main] 173  evel 173oggeer - Initializing ProtocolHandler ["http-nio-8287"]
+2025-12-26 11:18:55,283 [main] 173  evel 173oggeer - Starting service [Tomcat]
+2025-12-26 11:18:55,284 [main] 173  evel 173oggeer - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-26 11:18:55,371 [main] 173  evel 173oggeer - Initializing Spring embedded WebApplicationContext
+2025-12-26 11:18:55,377 [main] 296  evel 296oggeer - Root WebApplicationContext: initialization completed in 1744 ms
+2025-12-26 11:18:56,074 [main] 54   evel 54oggeer - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5a484ce1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e91b4f4, org.springframework.security.web.context.SecurityContextHolderFilter@1ff15a50, org.springframework.security.web.header.HeaderWriterFilter@4e3e11b9, org.springframework.web.filter.CorsFilter@2ffe243f, org.springframework.security.web.authentication.logout.LogoutFilter@484149eb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3b2e5c0d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7d528cf7, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@58ae402b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@634ff56, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39de9bda, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47148f3f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4099209b, org.springframework.security.web.access.ExceptionTranslationFilter@839df62, org.springframework.security.web.access.intercept.AuthorizationFilter@3b7c80c6]
+2025-12-26 11:18:56,341 [main] 173  evel 173oggeer - Starting ProtocolHandler ["http-nio-8287"]
+2025-12-26 11:18:56,368 [main] 221  evel 221oggeer - Tomcat started on port 8287 (http) with context path ''
+2025-12-26 11:18:56,391 [main] 56   evel 56oggeer - Started BfsiSecurityApplication in 3.507 seconds (process running for 4.633)
+2025-12-26 11:19:03,377 [http-nio-8287-exec-1] 173  evel 173oggeer - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-26 11:19:03,378 [http-nio-8287-exec-1] 532  evel 532oggeer - Initializing Servlet 'dispatcherServlet'
+2025-12-26 11:19:03,380 [http-nio-8287-exec-1] 554  evel 554oggeer - Completed initialization in 1 ms
+2025-12-26 11:19:03,392 [http-nio-8287-exec-1] 223  evel 223oggeer - Securing GET /account
+2025-12-26 11:19:03,402 [http-nio-8287-exec-1] 454  evel 454oggeer - Cache miss for REQUEST dispatch to '/account' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-12-26 11:19:03,446 [http-nio-8287-exec-1] 454  evel 454oggeer - Cache miss for REQUEST dispatch to '/account' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-12-26 11:19:03,451 [http-nio-8287-exec-1] 119  evel 119oggeer - Set SecurityContextHolder to anonymous SecurityContext
+2025-12-26 11:19:03,495 [http-nio-8287-exec-1] 80   evel 80oggeer - Saved request http://localhost:8287/account?continue to session
+2025-12-26 11:19:03,496 [http-nio-8287-exec-1] 79   evel 79oggeer - Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@b7bd413, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2025-12-26 11:19:03,506 [http-nio-8287-exec-1] 82   evel 82oggeer - Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@1c33e528
+2025-12-26 11:19:03,508 [http-nio-8287-exec-1] 61   evel 61oggeer - Redirecting to http://localhost:8287/login
+2025-12-26 11:19:03,517 [http-nio-8287-exec-2] 223  evel 223oggeer - Securing GET /login
+2025-12-26 11:19:14,694 [http-nio-8287-exec-3] 223  evel 223oggeer - Securing POST /login
+2025-12-26 11:19:14,919 [http-nio-8287-exec-3] 199  evel 199oggeer - Authenticated user
+2025-12-26 11:19:14,923 [http-nio-8287-exec-3] 19   evel 19oggeer - Login success for user: admin
+2025-12-26 11:19:14,926 [http-nio-8287-exec-3] 98   evel 98oggeer - Changed session id from 7EBE556E3EF441BB04A36157EDB9C974
+2025-12-26 11:19:14,928 [http-nio-8287-exec-3] 178  evel 178oggeer - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=admin, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_USER]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=7EBE556E3EF441BB04A36157EDB9C974], Granted Authorities=[ROLE_USER]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@5f243fe7]
+2025-12-26 11:19:14,931 [http-nio-8287-exec-3] 327  evel 327oggeer - Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=admin, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_USER]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=7EBE556E3EF441BB04A36157EDB9C974], Granted Authorities=[ROLE_USER]]
+2025-12-26 11:19:14,932 [http-nio-8287-exec-3] 61   evel 61oggeer - Redirecting to /account
+2025-12-26 11:19:14,944 [http-nio-8287-exec-4] 223  evel 223oggeer - Securing GET /account
+2025-12-26 11:19:14,948 [http-nio-8287-exec-4] 234  evel 234oggeer - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=admin, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_USER]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=7EBE556E3EF441BB04A36157EDB9C974], Granted Authorities=[ROLE_USER]]]
+2025-12-26 11:19:14,950 [http-nio-8287-exec-4] 227  evel 227oggeer - Secured GET /account
